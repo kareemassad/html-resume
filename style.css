@@ -244,7 +244,7 @@ li{
 }
 
 .main-block:not(.concise) .details div{
-  margin: 0.18in 0 0.1in 0; 
+  margin: 0.10  in 0 0.1in 0; 
 }
 
 .main-block:not(.concise) .blocks:last-child .details div{
@@ -254,7 +254,7 @@ li{
 .main-block.concise .details div:not(.concise){
   /* use padding to work around the fact that margin doesn't affect floated
      neighboring elements */
-  padding: 0.05in 0 0.07in 0;
+  padding: 0.0in 0 0.07in 0;
 }
 
 .details .place{
