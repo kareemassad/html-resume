@@ -154,6 +154,7 @@ li{
 .blocks{
   display: flex;
   flex-flow: row nowrap;
+  font-size: 9.23px;
 }
 
 .blocks > div{
@@ -326,6 +327,7 @@ li{
 
 .side-block{
   margin-top: 0.5in; 
+  font-size: 10px;
 }
 
 #contact ul{
