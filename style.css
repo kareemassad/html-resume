@@ -62,7 +62,7 @@ li{
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
+  background-color: #f2f2f2cb;
   font-size: 8.5pt;
 }
 
@@ -358,7 +358,7 @@ li{
   font-style: italic;
   line-height: 1.1;
   text-align: right;
-  color: #777;
+  color: #778788;
 }
 
 #disclaimer code{
