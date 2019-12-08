@@ -98,7 +98,7 @@ li{
 /*** categorial blocks ***/
 
 .main-block{
-  margin-top: 0.1in;
+  margin-top: 0.05in;
 }
 
 #main h2{
@@ -191,6 +191,9 @@ li{
   border-left: var(--decorator-border);
 }
 
+.inline-skills{
+  font-weight: lighter;
+}
 /*
  * XXX: Use two filled circles to achieve the circle-with-white-border effect.
  * The normal technique of only using one pseudo element and
@@ -255,7 +258,7 @@ li{
 .main-block.concise .details div:not(.concise){
   /* use padding to work around the fact that margin doesn't affect floated
      neighboring elements */
-  padding: 0.0in 0 0.07in 0;
+  padding: 0.0in 0 0.03in 0;
 }
 
 .details .place{
