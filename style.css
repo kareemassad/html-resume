@@ -332,7 +332,7 @@ li{
   margin-top: 0.5in; 
   font-size: 9.3px;
 }
-
+/* Contact */
 #contact ul{
   margin-top: 0.05in;
   padding-left: 0;
@@ -345,7 +345,7 @@ li{
   width: 9pt; /* for text alignment */
   text-align: right;
 }
-
+/* Skills */
 #skills{
   line-height: 1.5;
 }
@@ -354,7 +354,29 @@ li{
   margin: 0.05in 0 0.15in;
   padding: 0;
 }
+/* Interests */
+#interests ul{
+  margin-top: 0.05in;
+  padding-left: 0;
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  line-height: 1.75;
+}
 
+#interests li > i{
+  width: 9pt; /* for text alignment */
+  text-align: right;
+}
+/* relevant-classes */
+#relevant-classes{
+  line-height: 1.5;
+}
+
+#relevant-classes ul{
+  margin: 0.05in 0 0.15in;
+  padding: 0;
+}
+/* Disclaimer */
 #disclaimer{
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
