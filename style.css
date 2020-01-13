@@ -63,7 +63,7 @@ li{
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2cb;
-  font-size: 8.5pt;
+  font-size: 14pt;
 }
 
 /* main */
@@ -348,6 +348,7 @@ li{
 /* Skills */
 #skills{
   line-height: 1.5;
+  font-size: 10px;
 }
 
 #skills ul{
@@ -361,20 +362,25 @@ li{
   font-family: "Source Code Pro";
   font-weight: 400;
   line-height: 1.75;
+  font-size: 10px;
 }
 
 #interests li > i{
   width: 9pt; /* for text alignment */
   text-align: right;
 }
-/* relevant-classes */
-#relevant-classes{
-  line-height: 1.5;
+/* courses  */
+#courses ul{
+  margin-top: 0.05in;
+  padding-left: 0;
+  /* font-family: "Source Code Pro"; */
+  font-weight: 400;
+  line-height: 1.75;
 }
 
-#relevant-classes ul{
-  margin: 0.05in 0 0.15in;
-  padding: 0;
+#courses li > i{
+  width: 9pt; /* for text alignment */
+  text-align: right;
 }
 /* Disclaimer */
 #disclaimer{
