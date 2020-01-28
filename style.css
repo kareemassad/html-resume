@@ -43,6 +43,8 @@ body{
 h1, h2, h3{
   margin: 0;
   color: #000;
+  /* padding-top: 0.05in; */
+  padding-bottom: 0.01in;
 }
 
 li{
@@ -154,7 +156,8 @@ li{
 .blocks{
   display: flex;
   flex-flow: row nowrap;
-  font-size: 9.23px;
+  font-size: 10.7px;
+  /* font-size: 9.23px; */
 }
 
 .blocks > div{
@@ -228,7 +231,7 @@ li{
 }
 
 .blocks:last-child .decorator{ /* slightly shortens it */
-  margin-bottom: 0.25in;
+  /* margin-bottom: 0.25in; */
 }
 
 /***** fine-tunes on the details block where the real juice is *****/
